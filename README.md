@@ -10,31 +10,31 @@ A blockstack hello-world application
 
 > installation
 - installing yo Generator
-	```bash
+```bash
 	npm install -g yo generator-blockstack
 	```
 - Change root directory
-	```bash
+```bash
 	mkdir hello-blockstack && cd hello-blockstack
 	```
 - generating blockstack app from yo generator
-	```bash
+```bash
 	yo blockstack
 	```
-	
 > Serving the app
 - Download Npm dev dependencies
-	```bash
+```bash
 	npm install -dev
-	```bash
+	```
 - Run browserify
-	```bash
+```bash
 	npm run browserify
 	```
 - Start server
-	```bash
+```bash
 	node server.js
 	```
+
 -----------------------------------------------------------
 The server must render the index.html file at localhost:5000
 -----------------------------------------------------------
